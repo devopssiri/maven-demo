@@ -17,7 +17,7 @@ pipeline {
 			stage ('deploy')
 			{
 				steps{
-					bat label: '', 'xcopy/y "source" "destination"'
+					bat label: '', 'xcopy/y "source" "destination"  '
 				}
 			}
 			
